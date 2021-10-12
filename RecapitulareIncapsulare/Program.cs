@@ -7,27 +7,35 @@ namespace RecapitulareIncapsulare
     {
         static void Main(string[] args)
         {
-            /* Stiva1 stiva1 = new Stiva1();
-             //stiva1
-             int a = 1;
-             int b = 2;
-             Console.WriteLine(stiva1.f(a, b));*/
 
-            /*  //Stiva2
-             //
-              Stiva2 stiva2 = new Stiva2();//Apelare constructor implicit Stiva2
-                                           //instantiere obiectul stiva2
-              int a = 7;
-              int y = 5;
-              Console.WriteLine(stiva2.s(a,y));*/
 
-            //Stiva3
+            /*       Persoana persoana1 = new Persoana("Jimmy", 30);
+                   Persoana persoana2 = new Persoana("John", 90);
+                   Persoana p3 = new Persoana("Valy", 68);
+                   Persoana p5 = null;
 
-            //instantiez un obiect de tipul clasei Stiva3
-            //Apelare constructor implicit Stiva3() cu parameters default
-            Stiva3 stiva3 = new Stiva3();
-            int a = 7;
-            Console.WriteLine(stiva3.f(a));
+
+                   Persoana p4 = p3;
+
+
+                   p4.setNume("Mihai");
+
+
+                   Console.WriteLine(p5.Descriere());
+       */
+            /*Car car1 = new Car("Audi", 2000);
+            Car car2 = new Car("Dacia", 2004);
+            car2.setMarcaMasina("Aro");
+            car2 = car1;
+            Car car3 = car2;
+            Console.WriteLine(car2.CarDescription());
+            */
+            /*Stiva5 stiva5 = new Stiva5();
+            Console.WriteLine(stiva5.f1(2,1));
+*/
+            Stiva6 stiva6 = new Stiva6();
+            Console.WriteLine(stiva6.f1(3,4));
+            
         }
     }
 }
